@@ -1,6 +1,6 @@
 #!usr/bin/python
 #elkclone@reasearch4.org
-#http://reasearsh4.org
+#http://reasearch4.org
 #--------------Inline README---------------------------------------------
 """h4ckmath.py algebra review and calculus tutorial in python.
    Requirements: running cli python with SymPy and usual modules installed.
@@ -114,7 +114,7 @@ def h4ckmath():
             if showanswer == 'y':
                 print diff(sin(2*x))
             print "\n Behold python with SymPy module > differential calculus.!"
-            print "\n ex 2.6 differentiate f(x) = sec(x) + tan(x) hint: plug in the formulas."
+            print "\n ex 2.6 differentiate f(x) = sec(x) + tan(x) hint: plug in the formulas.y"
             showanswer = raw_input('showanswer from python diff() y/n :')
             if showanswer == 'y':
                 print diff(sec(x) + tan(x))
